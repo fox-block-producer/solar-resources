@@ -12,3 +12,5 @@ Block Producer fox will:
 ## Contributions
 - Started with a guide on how to setup a (Testnet) Block Producer: https://github.com/fox-block-producer/solar-resources/blob/main/block_producer_guide.md
 
+## Contact
+You can reach me @fox_block_producer in discord and @BlockProducerFox in telegram
