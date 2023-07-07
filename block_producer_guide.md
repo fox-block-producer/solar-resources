@@ -9,7 +9,9 @@ Get some testnet SXP (tSXP) to be able to register a block producer on testnet. 
 ### Setup 2 nodes
 Follow the [official node installation guide](https://docs.solar.org/exchanges/node-installation/requirements/) to setup 2 **testnet** nodes. 
 - one will be used for the actual block producing on testnet
+  - Instead of the mentioned port 6001, open port 6002 for testnet. On mainnet you do need to open port 6001.
 - one will be used to distribute rewards to your voters
+  - Don't open any of the mentioned ports 
 
 Check with `pm2 logs` if the block height in the logs is equal to the [height of testnet](https://testnet.solarscan.com/).
 When the height is the same, your node is in sync. It will probably at take a few hours before your node is in sync with the network.
